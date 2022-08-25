@@ -157,7 +157,7 @@
     var name = $(this).parents("tr").find('input[name="edit_name"]').val();
     var rating = $(this).parents("tr").find('input[name="edit_rating"]').val();
     $(this).parents("tr").find("td:eq(0)").text(name);
-    $(this).parents("tr").find("td:eq(1)").text(email);
+    $(this).parents("tr").find("td:eq(1)").text(rating);
     $(this).parents("tr").attr("data-name", name);
     $(this).parents("tr").attr("data-rating",rating);
     $(this).parents("tr").find(".btn-edit").show();
