@@ -1,2 +1,2 @@
-# crudSederhana_Kami
+# CRUDederhana_Kami
 membuat crud sederhana untuk test Kami Foundation
